@@ -1,6 +1,6 @@
 const Home = () => {
     return(
-        <h1>Rodando...</h1>
+        <h1>Atualizado...</h1>
     )
 }
 
