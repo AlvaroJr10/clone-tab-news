@@ -1,24 +1,24 @@
 {
-  "name": "clone-tab-news",
+  "name": "clone-tabnews",
   "version": "1.0.0",
-  "description": "",
+  "description": "Implementação do https://www.tabnews.com.br para o https://curso.dev",
   "main": "index.js",
   "scripts": {
-    "dev" : "next dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlvaroJr10/clone-tab-news.git"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AlvaroJr10/clone-tab-news/issues"
-  },
-  "homepage": "https://github.com/AlvaroJr10/clone-tab-news#readme",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "prettier": "^2.8.8"
   }
 }
